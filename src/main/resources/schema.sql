@@ -14,8 +14,8 @@ create table if not exists Taco
 
 create table if not exists Taco_Ingredients
 (
-    taco bigint not null
-        ingredient varchar (4) not null
+    taco       bigint     not null,
+    ingredient varchar(4) not null
 );
 
 alter table Taco_Ingredients
